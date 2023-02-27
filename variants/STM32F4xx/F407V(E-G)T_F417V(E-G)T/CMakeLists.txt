@@ -24,12 +24,14 @@ add_library(variant_bin STATIC EXCLUDE_FROM_ALL
   PeripheralPins_ARMED_V1.c
   PeripheralPins_BLACK_F407VX.c
   PeripheralPins_BLUE_F407VE_MINI.c
+  PeripheralPinst_DEVEBOX_F407VX.c
   PeripheralPins_FK407M1.c
   PeripheralPins_PRNTR_V1.c
   PeripheralPins_PRNTR_V2.c
   variant_ARMED_V1.cpp
   variant_BLACK_F407VX.cpp
   variant_BLUE_F407VE_MINI.cpp
+  variant_DEVEBOX_F407VX.CPP
   variant_DISCO_F407VG.cpp
   variant_DIYMORE_F407VGT.cpp
   variant_FK407M1.cpp

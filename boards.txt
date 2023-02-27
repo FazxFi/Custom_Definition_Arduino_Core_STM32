@@ -3613,6 +3613,17 @@ GenF4.menu.pnum.BLUE_F407VE_MINI.build.variant_h=variant_{build.board}.h
 GenF4.menu.pnum.BLUE_F407VE_MINI.build.variant=STM32F4xx/F407V(E-G)T_F417V(E-G)T
 GenF4.menu.pnum.BLUE_F407VE_MINI.build.peripheral_pins=-DCUSTOM_PERIPHERAL_PINS
 
+# DevEBox F407VE
+# https://github.com/mcauser/MCUDEV_DEVEBOX_F407VET6
+GenF4.menu.pnum.DEVEBOX_F407VE=DeveEBox_F407VE
+GenF4.menu.pnum.DEVEBOX_F407VE.upload.maximum_size=524288
+GenF4.menu.pnum.DEVEBOX_F407VE.upload.maximum_data_size=131072
+GenF4.menu.pnum.DEVEBOX_F407VE.build.board=DEVEBOX_F407VE
+GenF4.menu.pnum.DEVEBOX_F407VE.build.product_line=STM32F407xx
+GenF4.menu.pnum.DEVEBOX_F407VE.build.variant_h=variant_DEVEBOX_F407VX.h
+GenF4.menu.pnum.DEVEBOX_F407VE.build.variant=STM32F4xx/F407V(E-G)T_F417V(E-G)T
+GenF4.menu.pnum.DEVEBOX_F407VE.build.peripheral_pins=-DCUSTOM_PERIPHERAL_PINS
+
 # DIYMORE STM32F407VGT board
 GenF4.menu.pnum.DIYMORE_F407VGT=DIYMORE STM32F407VGT
 GenF4.menu.pnum.DIYMORE_F407VGT.upload.maximum_size=1048576
