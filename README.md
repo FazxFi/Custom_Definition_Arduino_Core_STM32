@@ -329,6 +329,7 @@ User can add a STM32 based board following this [wiki](https://github.com/stm32d
 | :green_heart:  | STM32F401RC | [STM32F Core Board](https://stm32-base.org/boards/STM32F401RCT6-STM32F-Core-Board) | *1.7.0* |  |
 | :green_heart:  | STM32F407VG | [DIYMORE STM32F407VGT](https://stm32-base.org/boards/STM32F407VGT6-diymore) | *1.5.0* |  |
 | :green_heart:  | STM32F407VE | [FK407M1](https://stm32-base.org/boards/STM32F407VET6-FK407M1-V1.0) | *1.5.0* |  |
+| :yellow_heart: | STM32F407VE | [DevEBox](https://stm32-base.org/boards/STM32F407VET6-STM32F4XX-M) | *c_d* | [More info](https://github.com/mcauser/MCUDEV_DEVEBOX_F407VET6) |
 | :green_heart:  | STM32F401CB<br>STM32F401CC<br>STM32F401CD<br>STM32F401CE | Generic Board | *1.9.0* |  |
 | :green_heart:  | STM32F401RB<br>STM32F401RC<br>STM32F401RD<br>STM32F401RE | Generic Board | *1.8.0* |  |
 | :green_heart:  | STM32F401VB<br>STM32F401VC<br>STM32F401VD<br>STM32F401VE | Generic Board | **2.0.0** |  |
