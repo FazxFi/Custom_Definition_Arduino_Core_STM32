@@ -1,7 +1,7 @@
 # Arduino core support for STM32 based boards
 [![forums](https://img.shields.io/badge/join-the%20forums-blue.svg)](https://www.stm32duino.com/)
-[![wiki](https://img.shields.io/badge/browse-the%20wiki-orange.svg)](https://github.com/stm32duino/wiki/wiki)
-[![STM32 Core Continuous Integration](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/Continuous-Integration.yml/badge.svg?branch=main)](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/Continuous-Integration.yml)
+[![wiki](https://img.shields.io/badge/browse-the%20wiki-orange.svg)](https://github.com/stm32duino/Arduino_Core_STM32/wiki)
+[![STM32 Core Continuous Integration](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/Arduino-build.yml/badge.svg?branch=main)](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/Arduino-build.yml )
 [![Arduino lint status](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/arduino-lint.yml)
 [![codespell](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/CodeSpell.yml/badge.svg)](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/CodeSpell.yml)
 [![CMake](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/Cmake.yml/badge.svg)](https://github.com/stm32duino/Arduino_Core_STM32/actions/workflows/Cmake.yml)
@@ -16,7 +16,7 @@
 * [Getting Started](https://github.com/stm32duino/Arduino_Core_STM32#getting-started)<br>
 * [Supported boards](https://github.com/stm32duino/Arduino_Core_STM32#supported-boards)<br>
 * [Troubleshooting](https://github.com/stm32duino/Arduino_Core_STM32#troubleshooting)<br>
-* [Wiki](https://github.com/stm32duino/wiki/wiki/)
+* [Wiki](https://github.com/stm32duino/Arduino_Core_STM32/wiki/)
 
 ## Introduction
 
@@ -41,11 +41,11 @@ https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectron
 * Default branch has changed to *main*.
 * Since core release 2.0.0 this link has changed.
 
-For full instructions on using the "**Boards Manager**", see the [Getting Started](https://github.com/stm32duino/wiki/wiki/Getting-Started) page.
+For full instructions on using the "**Boards Manager**", see the [Getting Started](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Getting-Started) page.
 
-Advanced user can use the repository to benefit from the latest development. See the [Using git repository](https://github.com/stm32duino/wiki/wiki/Using-git-repository) page.
+Advanced user can use the repository to benefit from the latest development. See the [Using git repository](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Using-git-repository) page.
 
-User can add a STM32 based board following this [wiki](https://github.com/stm32duino/wiki/wiki/Add-a-new-variant-(board)).
+User can add a STM32 based board following this [wiki](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Add-a-new-variant-(board)).
 
 ## Supported boards
 
@@ -391,7 +391,7 @@ User can add a STM32 based board following this [wiki](https://github.com/stm32d
 | :----: | :-------: | ---- | :-----: | :---- |
 | :green_heart: | STM32G030C6<br>STM32G030C8 | Generic Board | *2.2.0* |
 | :green_heart: | STM32G030F6<br>STM32G030F6 | Generic Board | *2.2.0* |
-| :green_heart: | STM32G030K8 | [Aurora One](https://www.bfy.kr/aurora-one/) | *2.0.0* |
+| :green_heart: | STM32G030K8 | Aurora One | *2.0.0* |
 | :green_heart: | STM32G071CB | [AGAFIA SG0](https://www.sigmaic.com/store/p7/agafia-sgo.html) | *2.3.0* |
 | :green_heart:  | STM32G030J6 | Generic Board | *2.4.0* |  |
 | :green_heart: | STM32G030K6<br>STM32G030K8 | Generic Board | *2.0.0* |  |
@@ -527,7 +527,7 @@ User can add a STM32 based board following this [wiki](https://github.com/stm32d
 | :green_heart: | STM32H750IB<br>STM32H750II | Generic Board | *2.0.0* |  |
 | :green_heart: | STM32H750IB | [Daisy](https://www.electro-smith.com/daisy/daisy) | *1.9.0* |  |
 | :green_heart: | STM32H750IB | [Daisy Patch SM](https://www.electro-smith.com/daisy/patch-sm) | *2.2.0* |  |
-| :green_heart: | STM32H750IB | [Daisy Petal SM](https://www.electro-smith.com) | *2.2.0* |  |
+| :green_heart: | STM32H750IB | [Daisy Petal SM](https://www.electro-smith.com/daisy/petal-125b-sm) | *2.2.0* |  |
 | :green_heart: | STM32H750VB | Generic Board | *2.0.0* |  |
 | :green_heart: | STM32H750VB | [DevEBox H750VBT6](https://github.com/mcauser/MCUDEV_DEVEBOX_H7XX_M) | *2.2.0* | |
 | :green_heart: | STM32H750VB | [WeAct MiniSTM32H750VBT6](https://github.com/WeActStudio/MiniSTM32H7xx) | *2.2.0* | [More info](https://github.com/stm32duino/Arduino_Core_STM32/pull/1552) |
@@ -747,7 +747,7 @@ User can add a STM32 based board following this [wiki](https://github.com/stm32d
 | :----: | :-------: | ---- | :-----: | :---- |
 | :green_heart:  | STM32L073RZ | [AcSIP S76S](https://www.acsip.com.tw) | *2.3.0* |  |
 | :green_heart:  | STM32F072C8<br>STM32F072CB | [Elektor LoRa Node](https://github.com/ElektorLabs/180516-Elektor_LoRa_Node) | *1.8.0* | [More info](https://www.elektormagazine.com/labs/lorawan-node-experimental-platform) |
-| :green_heart:  | STM32L151CB | [RAK811 LoRa Tracker](https://www.rakwireless.com/en/) | *1.4.0* | [Wiki](https://github.com/stm32duino/wiki/wiki/Connectivities#lora) |
+| :green_heart:  | STM32L151CB | [RAK811 LoRa Tracker](https://www.rakwireless.com/en/) | *1.4.0* | [Wiki](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Connectivities#lora) |
 | :green_heart:  | STM32L051C8 | [RHF76-052](https://lora-alliance.org/lora_products/rhf76-052/) | *1.7.0* | Basic support |
 
 ### [Midatronics](https://midatronics.com/) boards
